@@ -6,13 +6,6 @@ body {
     font-family: Comic Sans, Helvetica, sans-serif;
 }*/
 
-.picture {
-    background-image: url(https://images6.alphacoders.com/118/thumb-1920-1188254.jpg);
-    background-size: 500px;
-    width: 500px;
-    height: 270px;
-}
-
 h2 {
     box-sizing: border-box;
     border: solid 1px #CCC; 
@@ -30,6 +23,7 @@ h2 {
     height: 150px;   
     padding: 15px;
     margin: 0px;
+    margin-top: -5px
 }
 
 

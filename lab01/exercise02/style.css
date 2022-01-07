@@ -11,14 +11,87 @@ Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
 
+.picture {
+    	width: 360px;
+    	height: 270px;
+}
+
+    h2 {
+    	box-sizing: border-box;
+    	border: solid 1px #CCC; 
+    	width: 360px;
+    	height: 50px;   
+    	padding-top: 10px;
+    	padding-left: 20px;
+    	margin: 0px;
+    }
+
+    .bottom {
+    	box-sizing: border-box;
+     	border: solid 1px #CCC; 
+     	width: 360px;
+     	height: 180px;   
+     	padding: 15px;
+        padding-top: 5px;
+    	margin: 0px;
+	margin-top: -10px;
+    }
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
+    .picture {
+    	width: 360px;
+    	height: 270px;
+    }
 
+    h2 {
+    	box-sizing: border-box;
+    	border: solid 1px #CCC; 
+    	width: 360px;
+    	height: 50px;   
+    	padding-top: 10px;
+    	padding-left: 20px;
+    	margin: 0px;
+    }
+
+    .bottom {
+    	box-sizing: border-box;
+     	border: solid 1px #CCC; 
+     	width: 360px;
+     	height: 180px;   
+     	padding: 15px;
+        padding-top: 5px;
+    	margin: 0px;
+	margin-top: -10px;
+    }
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
+    .picture {
+    	width: 360px;
+    	height: 270px;
+    }
 
+    h2 {
+    	box-sizing: border-box;
+    	border: solid 1px #CCC; 
+    	width: 360px;
+    	height: 50px;   
+    	padding-top: 10px;
+    	padding-left: 20px;
+    	margin: 0px;
+    }
+
+    .bottom {
+    	box-sizing: border-box;
+     	border: solid 1px #CCC; 
+     	width: 360px;
+     	height: 180px;   
+     	padding: 15px;
+        padding-top: 5px;
+    	margin: 0px;
+	margin-top: -10px;
+    }
     
 }
